@@ -7,8 +7,7 @@ function App() {
 		<div className="App">
 			<Routes>
 				<Route path="/" element={<Description />} />
-				<Route path="/description" element={<Description />} />
-				<Route path="/release" element={<Release />} />
+
 				<Route path="/error" element={<Error />} />
 				<Route path="*" element={<Navigate to="/error" />} />
 			</Routes>
@@ -17,4 +16,3 @@ function App() {
 }
 
 export default App;
-

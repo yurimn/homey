@@ -6,7 +6,6 @@ import reportWebVitals from "./reportWebVitals";
 
 import { BrowserRouter } from "react-router-dom";
 export { default as Description } from "./Description";
-export { default as Release } from "./Release";
 export { default as Error } from "./Error";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
