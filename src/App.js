@@ -1,6 +1,6 @@
 import "./App.css";
 import { Routes, Route, Navigate } from "react-router-dom";
-import { Release, Description, Error } from ".";
+import { Description, Error } from ".";
 
 function App() {
 	return (
