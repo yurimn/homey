@@ -7,6 +7,8 @@ function Description() {
 			<a href={`${process.env.PUBLIC_URL}/homey1.0.1.apk`} download>
 				Homey version 1.0.1
 			</a>
+			<br />
+
 			<a href={`${process.env.PUBLIC_URL}/homey1.0.0.apk`} download>
 				Homey version 1.0.0
 			</a>
